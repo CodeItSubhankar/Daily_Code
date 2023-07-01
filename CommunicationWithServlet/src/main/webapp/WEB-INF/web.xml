@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+<servlet>
+ <servlet-name>comunication</servlet-name>
+ <servlet-class>com.sbh.Servlet.HtmlCommunicationWithServlet</servlet-class>
+
+</servlet>
+<servlet-mapping>
+  <servlet-name>comunication</servlet-name>
+  <url-pattern>/comurl</url-pattern>
+
+</servlet-mapping>
+
+
+</web-app>
